@@ -1,0 +1,237 @@
+.clickable {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-border-width: 3;
+}
+
+.clickable:hover {
+    -fx-stroke: grey;
+    -fx-fill: rgba(134, 134, 134, 0.5);
+   /* -fx-stroke-width: 2px; */
+}
+
+.game-all-group {
+    -fx-padding: 30px;
+}
+
+.black {
+    -fx-text-fill: black;
+}
+
+.red {
+    -fx-text-fill: red;
+}
+
+.blue {
+    -fx-text-fill: deepskyblue;
+}
+
+.turquoise {
+    -fx-text-fill: darkturquoise;
+}
+.green {
+    -fx-text-fill: greenyellow;
+}
+
+.hot {
+    -fx-text-fill: hotpink;
+}
+
+.sexy {
+    -fx-text-fill: rgb(0, 170, 170);
+}
+
+.cat {
+    -fx-text-fill: rgb(255, 166, 0);
+}
+
+.dog {
+    -fx-text-fill: rgb(248, 99, 0);
+}
+
+.gridLine {
+    -fx-fill: transparent;
+    -fx-stroke: black;
+    -fx-border-width: 2;
+}
+
+.topBox {
+    -fx-background-color: rgb(240, 240, 240);
+    -fx-border-color: black;
+    -fx-border-width: 1 0 1 0;
+    -fx-padding: 5 5 5 0;
+}
+
+
+.bottom-box-left {
+    -fx-hgap: 10px;
+    -fx-padding: 0 50 0 10;
+}
+
+.bottom-box-right {
+    -fx-hgap: 10px;
+    -fx-padding: 0 10 0 50;
+}
+
+.border-pane {
+   -fx-background-color: white; 
+}
+
+
+.hbox-bottom-box {
+    -fx-background-color: rgb(240, 240, 240);
+    -fx-border-color: black;
+    -fx-border-width: 1 0 0 0;
+    -fx-padding: 10 5 5 5;
+}
+
+
+.button {
+    -fx-background-color: rgb(240, 240, 240);
+    -fx-background-radius: 0;
+    -fx-border-insets: 1px;
+}
+
+.button:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 0;
+    -fx-border-insets: 1px;
+}
+
+.button-settings {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-insets: 1px;
+}
+
+.header-settings {
+    -fx-font-size: 20px;
+    -fx-padding: 10 0 0 0;
+}
+
+
+.settingsRectangle {
+    -fx-fill: white;
+    -fx-stroke: none;
+    
+}
+
+.combo-box {
+    -fx-background: white;
+    -fx-background-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: black;
+    -fx-border-insets: 3px;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+.text-field {
+    -fx-background: white;
+    -fx-background-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: black;
+    -fx-border-insets: 3px;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-focus-color: grey;
+}
+
+.settings-overlay {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-padding: 6px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.start-overlay {
+    -fx-background-color: white;
+    -fx-padding: 6px;
+}
+
+.header-start {
+    -fx-font-size: 20px;
+    -fx-padding: 10 0 5 0;
+}
+
+.text-start {
+    -fx-font-size: 13px;
+    -fx-padding: 20 0 5 0;
+}
+
+.winner-overlay {
+    -fx-font-size: 40px;
+    -fx-padding: 50px;
+}
+
+.winner-restart {
+    -fx-background-color: white;
+    -fx-border-color: none;
+    -fx-background-radius: 0;
+    -fx-padding: 20px;
+}
+
+.winner-text {
+    -fx-text-fill: green;
+}
+
+.alert-wrong {
+    -fx-text-fill: red;
+}
+
+.alert-right {
+    -fx-text-fill: darkgreen;
+}
+
+.lblPlayer {
+    -fx-font-size: 20px;
+}
+
+.lblScore {
+    -fx-font-size: 40px;
+}
+
+.playing-info {
+    -fx-font-size: 20px;
+}
+
+.red-text {
+    -fx-text-fill: red;
+}
+
+.black-text {
+    -fx-text-fill: black;
+}
+
+.info-header {
+    -fx-font-size: 20px;
+}
+
+.win-streak {
+    -fx-padding: 10 0 0 0;
+}
+
+/* Styling of the dialog */
+
+.dialog-pane{
+    -fx-background-color: white;
+}
+.dialog-pane > *.button-bar > *.container{
+    -fx-background-color: lightgrey;
+}
+.dialog-pane > *.label.content{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.dialog-pane:header *.header-panel{
+    -fx-background-color: white;
+}
+.dialog-pane:header *.header-panel *.label{
+    -fx-font-size: 18px;
+    -fx-font-style: italic;
+    -fx-fill: #292929;
+}
