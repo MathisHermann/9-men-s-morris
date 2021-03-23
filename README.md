@@ -1,5 +1,5 @@
 # The Mini-Game  
-This is a project by BIT students of the FHNW in Basel. The goal is to design a Mini-Game according to the requirements given by the lecturer Dr. Prof. Bradley Richards.  
+This is a project by BIT students of the FHNW in Basel. The goal is to design a Mini-Game according to the requirements given by the lecturer Prof. Dr. Bradley Richards.  
 Have fun with trying out and finding all features :-)  
 
 Students:
